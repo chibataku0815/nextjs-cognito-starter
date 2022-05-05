@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-nextjscognitostarter-dev-203741-authRole",
+      "UnauthRoleArn": "arn:aws:iam::135405249545:role/amplify-nextjscognitostarter-dev-203741-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::135405249545:role/amplify-nextjscognitostarter-dev-203741-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-nextjscognitostarter-dev-203741-deployment",
+      "UnauthRoleName": "amplify-nextjscognitostarter-dev-203741-unauthRole",
+      "StackName": "amplify-nextjscognitostarter-dev-203741",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:135405249545:stack/amplify-nextjscognitostarter-dev-203741/9c4372a0-cb9e-11ec-90d2-06001d488921",
+      "AmplifyAppId": "dhj9hib2ttrxn"
+    },
+    "categories": {
+      "auth": {
+        "nextjscognitostarterb8d5af6a": {}
+      }
+    }
+  }
+}
