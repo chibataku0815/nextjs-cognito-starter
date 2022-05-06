@@ -16,7 +16,7 @@ const schema = yup
   })
   .required()
 
-const SignIn = () => {
+const SignUp = () => {
   const auth = useAuth()
   const {
     register,
@@ -27,7 +27,7 @@ const SignIn = () => {
   })
   const onSubmit = async (data: IFormInputs) => {
     console.info(JSON.stringify(data))
-    const result = await auth.signIn(data.username, data.password)
+    const result = await auth.signUp(data.username, data.password)
     if (result.success) {
       alert(result.success)
     } else {
@@ -59,4 +59,4 @@ const SignIn = () => {
   )
 }
 
-export default SignIn
+export default SignUp
